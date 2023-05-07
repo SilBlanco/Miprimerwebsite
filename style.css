@@ -1,0 +1,46 @@
+:root{
+  background-image: url(/imagenes/galaxia-en-el-espacio-4052.jpg);
+  background-color: black;
+}
+
+.container {
+    max-width: 1200px; 
+  margin: auto;
+  padding: 20px;
+font: 80px;
+color: white;
+text-align: center;
+border: 10px 10px;
+box-sizing: 40px 50px;
+flex-direction: 200px;
+margin: 40px 40px 40px 40px;
+
+}
+
+.imagenes{
+  margin: 40px 40px 40px 40px;
+  padding-right: 20px ;
+  border-radius: 20px;
+  box-shadow: 1px 4px 50px 0;
+  descent-override: 100px;
+  border-radius: 30px;
+  background-color: rgb(165, 7, 91);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 600px) 
+{
+  .column {
+    flex: 100%;
+  }
+}
